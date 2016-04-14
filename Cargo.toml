@@ -4,9 +4,6 @@ version = "0.1.0"
 authors = ["Philip Jackson <p-jackson@live.com>"]
 
 [dependencies]
-winapi = "0.2.6"
-user32-sys = "0.1.2"
-kernel32-sys = "0.2.1"
-encoding = "0.2.32"
-safe-windows = { path = "lib/safe-windows" }
 algum = { path = "lib/algum" }
+safe-windows = { path = "lib/safe-windows" }
+winapi = "0.2.6"

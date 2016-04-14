@@ -8,4 +8,4 @@ authors = ["Philip Jackson <p-jackson@live.com>"]
 safe-windows = { path = "../safe-windows" }
 winapi = "0.2.6"
 user32-sys = "0.1.2"
-uuid = "0.2.0"
+snowflake = "1.1.0"
