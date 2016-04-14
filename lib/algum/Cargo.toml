@@ -1,0 +1,11 @@
+[package]
+name = "algum"
+version = "0.1.0"
+description = "Write native windows apps, inspired by the Elm architecture."
+authors = ["Philip Jackson <p-jackson@live.com>"]
+
+[dependencies]
+safe-windows = { path = "../safe-windows" }
+winapi = "0.2.6"
+user32-sys = "0.1.2"
+uuid = "0.2.0"

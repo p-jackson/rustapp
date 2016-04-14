@@ -1,0 +1,14 @@
+[package]
+name = "safe-windows"
+version = "0.1.0"
+description = "Wraps the winapi crate so you don't need to use unsafe code."
+authors = ["Philip Jackson <p-jackson@live.com>"]
+
+[lib]
+name = "windows"
+
+[dependencies]
+winapi = "0.2.6"
+user32-sys = "0.1.2"
+kernel32-sys = "0.2.1"
+encoding = "0.2.32"
